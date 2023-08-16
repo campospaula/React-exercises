@@ -55,15 +55,28 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #322f2f;
+  border-radius: 5px;
+  background-color: #3d3b3b;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #fcfcfc;
+    background-color: #060505;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #d02c9f;
   }
 }
